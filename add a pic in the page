@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>how to add a picture</title>
+</head>
+<body>
+    <P1>HEY BOB THIS IS THE LESSON 24</P1>
+    <br>
+    <img src="https://n.sinaimg.cn/front/121/w513h408/20190410/hY_U-hvntnkp9583970.jpg" alt="fafa">
+    <br>
+
+</body>
+</html>
