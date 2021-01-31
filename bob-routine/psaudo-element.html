@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 即使多个空格和nbsp也不影响此伪元素 */
+        p::first-letter {
+            font-size: 30px;
+            color: red;
+        }
+
+        p::selection {
+            color: white;
+        }
+
+        h3::before {
+            content: "^";
+        }
+
+        h3::after {
+            content: "$$  ";
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Demo</h2>
+    <p> &nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eos incidunt minima ex, soluta
+        pariatur natus aperiam iure unde excepturi nemo quis officia vitae, expedita alias quisquam dolorem. Cum,
+        doloremque.</p>
+
+    <h3>士大夫士大夫十分</h3>
+
+    <p>37讲，css dinner 练习链接地址：<a href="https://flukeout.github.io/" target="_blank">css dinner</a></p>
+
+    <h1>Tips for vscode</h1>
+    <p> <strong>Remember:</strong> format code before commit your code</p>
+    Set auto wrap for editor
+    <br>
+    <img src="./images/2021-01-31_10-45-42.png" alt="">
+    <br>
+    Then it will be like this below
+    <br>
+    <img src="./images/2021-01-31_10-46-42.png" alt="">
+</body>
+
+</html>
